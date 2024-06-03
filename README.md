@@ -30,6 +30,12 @@ $ cmake ../ -DCMAKE_BUILD_TYPE=Release --toolchain=../clang.cmake -G Ninja
 
 $ cmake --build .
 
+# Multiconfig with Ninja
+
+$ cmake ../ -G "Ninja Multi-Config"
+
+Now --config=Release and --config=Debug options for "cmake --build ." are available
+
 # Detecting C++ standard version for msvc
 
 __cplusplus macro is set to 199711L by default in msvc, but you can use it 
