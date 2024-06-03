@@ -20,7 +20,7 @@ $ cd build
 
 $ cmake ../
 
-$ cmake --build . --configuration=Release
+$ cmake --build . --config=Release
 
 For Linux use the following:
 
