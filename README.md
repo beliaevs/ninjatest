@@ -30,4 +30,11 @@ $ cmake ../ -DCMAKE_BUILD_TYPE=Release --toolchain=../clang.cmake -G Ninja
 
 $ cmake --build .
 
+# Detecting C++ standard version for msvc
+
+__cplusplus macro is set to 199711L by default in msvc, but you can use it 
+with option  /Zc:__cplusplus 
+
+
+
 
