@@ -4,3 +4,4 @@
 
 std::string f();
 std::string getConfiguration();
+std::string getCompiler();
